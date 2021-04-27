@@ -7,6 +7,8 @@
 
 #import "ViewController.h"
 
+#import "SexRadioBoxGroup.h"
+
 @interface ViewController ()
 
 @end
@@ -15,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    SexRadioBoxGroup *btn = [[SexRadioBoxGroup alloc] initWithFrame:CGRectMake(25.0, 100.0, self.view.frame.size.width - 50.0, 50.0)];
+    [btn setClickRadioBoxBlock:^(NSInteger index) {
+        NSLog(@"%ld", index);
+    }];
+    [self.view addSubview:btn];
 }
 
 
