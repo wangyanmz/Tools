@@ -44,6 +44,25 @@
 		E3B81A73263817E900DE1890 /* PGDatePickManagerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A55263817E900DE1890 /* PGDatePickManagerHeaderView.m */; };
 		E3B81A74263817E900DE1890 /* PGDatePicker+Year.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A56263817E900DE1890 /* PGDatePicker+Year.m */; };
 		E3B81A75263817E900DE1890 /* PGDatePicker+DateHourMinuteSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A58263817E900DE1890 /* PGDatePicker+DateHourMinuteSecond.m */; };
+		E3B81A7F26381A0700DE1890 /* CodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A7E26381A0700DE1890 /* CodeInputView.m */; };
+		E3B81A882638FDAF00DE1890 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A872638FDAF00DE1890 /* TableViewController.m */; };
+		E3B81A8D2638FF3300DE1890 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A8C2638FF3300DE1890 /* OneViewController.m */; };
+		E3B81A912639002D00DE1890 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A902639002D00DE1890 /* TwoViewController.m */; };
+		E3B81A962639042300DE1890 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B81A952639042300DE1890 /* BaseVC.m */; };
+		E3EA28122639389B0035169F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA28102639389B0035169F /* UIColor+Hex.m */; };
+		E3EA281F26393D890035169F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3EA282126393D890035169F /* InfoPlist.strings */; };
+		E3EA282D263940820035169F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3EA282F263940820035169F /* Localizable.strings */; };
+		E3EA2865263A41DD0035169F /* BRResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA284B263A41DD0035169F /* BRResultModel.m */; };
+		E3EA2866263A41DD0035169F /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA284E263A41DD0035169F /* BRStringPickerView.m */; };
+		E3EA2867263A41DD0035169F /* BRDatePickerView+BR.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA2851263A41DD0035169F /* BRDatePickerView+BR.m */; };
+		E3EA2868263A41DD0035169F /* NSDate+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA2853263A41DD0035169F /* NSDate+BRPickerView.m */; };
+		E3EA2869263A41DD0035169F /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA2854263A41DD0035169F /* BRDatePickerView.m */; };
+		E3EA286A263A41DD0035169F /* BRPickerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3EA285A263A41DD0035169F /* BRPickerView.bundle */; };
+		E3EA286B263A41DD0035169F /* BRPickerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA285B263A41DD0035169F /* BRPickerStyle.m */; };
+		E3EA286C263A41DD0035169F /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA285C263A41DD0035169F /* BRBaseView.m */; };
+		E3EA286D263A41DD0035169F /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA285D263A41DD0035169F /* NSBundle+BRPickerView.m */; };
+		E3EA286E263A41DD0035169F /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA2861263A41DD0035169F /* BRAddressModel.m */; };
+		E3EA286F263A41DD0035169F /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA2864263A41DD0035169F /* BRAddressPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +139,47 @@
 		E3B81A56263817E900DE1890 /* PGDatePicker+Year.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PGDatePicker+Year.m"; sourceTree = "<group>"; };
 		E3B81A57263817E900DE1890 /* PGDatePickManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGDatePickManager.h; sourceTree = "<group>"; };
 		E3B81A58263817E900DE1890 /* PGDatePicker+DateHourMinuteSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PGDatePicker+DateHourMinuteSecond.m"; sourceTree = "<group>"; };
+		E3B81A7D26381A0700DE1890 /* CodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeInputView.h; sourceTree = "<group>"; };
+		E3B81A7E26381A0700DE1890 /* CodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeInputView.m; sourceTree = "<group>"; };
+		E3B81A862638FDAF00DE1890 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E3B81A872638FDAF00DE1890 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E3B81A8B2638FF3300DE1890 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		E3B81A8C2638FF3300DE1890 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		E3B81A8F2639002D00DE1890 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		E3B81A902639002D00DE1890 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		E3B81A942639042300DE1890 /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		E3B81A952639042300DE1890 /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		E3EA28102639389B0035169F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E3EA28112639389B0035169F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E3EA281526393CA20035169F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		E3EA281626393CA20035169F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E3EA282026393D890035169F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3EA282326393D8F0035169F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E3EA282E263940820035169F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E3EA2830263940870035169F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E3EA284B263A41DD0035169F /* BRResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRResultModel.m; sourceTree = "<group>"; };
+		E3EA284C263A41DD0035169F /* BRStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRStringPickerView.h; sourceTree = "<group>"; };
+		E3EA284D263A41DD0035169F /* BRResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRResultModel.h; sourceTree = "<group>"; };
+		E3EA284E263A41DD0035169F /* BRStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRStringPickerView.m; sourceTree = "<group>"; };
+		E3EA284F263A41DD0035169F /* BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerView.h; sourceTree = "<group>"; };
+		E3EA2851263A41DD0035169F /* BRDatePickerView+BR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BRDatePickerView+BR.m"; sourceTree = "<group>"; };
+		E3EA2852263A41DD0035169F /* BRDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDatePickerView.h; sourceTree = "<group>"; };
+		E3EA2853263A41DD0035169F /* NSDate+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BRPickerView.m"; sourceTree = "<group>"; };
+		E3EA2854263A41DD0035169F /* BRDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDatePickerView.m; sourceTree = "<group>"; };
+		E3EA2855263A41DD0035169F /* BRDatePickerView+BR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BRDatePickerView+BR.h"; sourceTree = "<group>"; };
+		E3EA2856263A41DD0035169F /* NSDate+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BRPickerView.h"; sourceTree = "<group>"; };
+		E3EA2858263A41DD0035169F /* NSBundle+BRPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+BRPickerView.h"; sourceTree = "<group>"; };
+		E3EA2859263A41DD0035169F /* BRPickerViewMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerViewMacro.h; sourceTree = "<group>"; };
+		E3EA285A263A41DD0035169F /* BRPickerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BRPickerView.bundle; sourceTree = "<group>"; };
+		E3EA285B263A41DD0035169F /* BRPickerStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPickerStyle.m; sourceTree = "<group>"; };
+		E3EA285C263A41DD0035169F /* BRBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBaseView.m; sourceTree = "<group>"; };
+		E3EA285D263A41DD0035169F /* NSBundle+BRPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+BRPickerView.m"; sourceTree = "<group>"; };
+		E3EA285E263A41DD0035169F /* BRBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBaseView.h; sourceTree = "<group>"; };
+		E3EA285F263A41DD0035169F /* BRPickerStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPickerStyle.h; sourceTree = "<group>"; };
+		E3EA2861263A41DD0035169F /* BRAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressModel.m; sourceTree = "<group>"; };
+		E3EA2862263A41DD0035169F /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
+		E3EA2863263A41DD0035169F /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
+		E3EA2864263A41DD0035169F /* BRAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,16 +212,19 @@
 		E3B819E92638016700DE1890 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				E3B81A1D263817E900DE1890 /* PGDatePicker */,
+				E3EA2871263A41E00035169F /* PlugIn */,
+				E3EA280F263938880035169F /* Other */,
+				E3B81A8A2638FF1C00DE1890 /* TableViewController */,
+				E3B81A772638195500DE1890 /* CodeInputView */,
 				E3B81A05263801A000DE1890 /* SexRadioBox */,
 				E3B819EA2638016700DE1890 /* AppDelegate.h */,
 				E3B819EB2638016700DE1890 /* AppDelegate.m */,
-				E3B819F02638016700DE1890 /* ViewController.h */,
-				E3B819F12638016700DE1890 /* ViewController.m */,
 				E3B819F32638016700DE1890 /* Main.storyboard */,
 				E3B819F62638016B00DE1890 /* Assets.xcassets */,
 				E3B819F82638016B00DE1890 /* LaunchScreen.storyboard */,
 				E3B819FB2638016B00DE1890 /* Info.plist */,
+				E3EA282126393D890035169F /* InfoPlist.strings */,
+				E3EA282F263940820035169F /* Localizable.strings */,
 				E3B819FC2638016B00DE1890 /* main.m */,
 			);
 			path = Tools;
@@ -244,6 +307,112 @@
 			path = PGDatePicker;
 			sourceTree = "<group>";
 		};
+		E3B81A772638195500DE1890 /* CodeInputView */ = {
+			isa = PBXGroup;
+			children = (
+				E3B81A7D26381A0700DE1890 /* CodeInputView.h */,
+				E3B81A7E26381A0700DE1890 /* CodeInputView.m */,
+			);
+			path = CodeInputView;
+			sourceTree = "<group>";
+		};
+		E3B81A8A2638FF1C00DE1890 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3B819F02638016700DE1890 /* ViewController.h */,
+				E3B819F12638016700DE1890 /* ViewController.m */,
+				E3B81A8B2638FF3300DE1890 /* OneViewController.h */,
+				E3B81A8C2638FF3300DE1890 /* OneViewController.m */,
+				E3B81A8F2639002D00DE1890 /* TwoViewController.h */,
+				E3B81A902639002D00DE1890 /* TwoViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		E3EA280F263938880035169F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E3B81A942639042300DE1890 /* BaseVC.h */,
+				E3B81A952639042300DE1890 /* BaseVC.m */,
+				E3B81A862638FDAF00DE1890 /* TableViewController.h */,
+				E3B81A872638FDAF00DE1890 /* TableViewController.m */,
+				E3EA28112639389B0035169F /* UIColor+Hex.h */,
+				E3EA28102639389B0035169F /* UIColor+Hex.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E3EA2849263A41DD0035169F /* BRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA2860263A41DD0035169F /* AddressPickerView */,
+				E3EA2857263A41DD0035169F /* Base */,
+				E3EA284F263A41DD0035169F /* BRPickerView.h */,
+				E3EA2850263A41DD0035169F /* DatePickerView */,
+				E3EA284A263A41DD0035169F /* StringPickerView */,
+			);
+			path = BRPickerView;
+			sourceTree = "<group>";
+		};
+		E3EA284A263A41DD0035169F /* StringPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA284D263A41DD0035169F /* BRResultModel.h */,
+				E3EA284B263A41DD0035169F /* BRResultModel.m */,
+				E3EA284C263A41DD0035169F /* BRStringPickerView.h */,
+				E3EA284E263A41DD0035169F /* BRStringPickerView.m */,
+			);
+			path = StringPickerView;
+			sourceTree = "<group>";
+		};
+		E3EA2850263A41DD0035169F /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA2852263A41DD0035169F /* BRDatePickerView.h */,
+				E3EA2854263A41DD0035169F /* BRDatePickerView.m */,
+				E3EA2855263A41DD0035169F /* BRDatePickerView+BR.h */,
+				E3EA2851263A41DD0035169F /* BRDatePickerView+BR.m */,
+				E3EA2856263A41DD0035169F /* NSDate+BRPickerView.h */,
+				E3EA2853263A41DD0035169F /* NSDate+BRPickerView.m */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		E3EA2857263A41DD0035169F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA285E263A41DD0035169F /* BRBaseView.h */,
+				E3EA285C263A41DD0035169F /* BRBaseView.m */,
+				E3EA285F263A41DD0035169F /* BRPickerStyle.h */,
+				E3EA285B263A41DD0035169F /* BRPickerStyle.m */,
+				E3EA285A263A41DD0035169F /* BRPickerView.bundle */,
+				E3EA2859263A41DD0035169F /* BRPickerViewMacro.h */,
+				E3EA2858263A41DD0035169F /* NSBundle+BRPickerView.h */,
+				E3EA285D263A41DD0035169F /* NSBundle+BRPickerView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E3EA2860263A41DD0035169F /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA2863263A41DD0035169F /* BRAddressModel.h */,
+				E3EA2861263A41DD0035169F /* BRAddressModel.m */,
+				E3EA2862263A41DD0035169F /* BRAddressPickerView.h */,
+				E3EA2864263A41DD0035169F /* BRAddressPickerView.m */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		E3EA2871263A41E00035169F /* PlugIn */ = {
+			isa = PBXGroup;
+			children = (
+				E3B81A1D263817E900DE1890 /* PGDatePicker */,
+				E3EA2849263A41DD0035169F /* BRPickerView */,
+			);
+			path = PlugIn;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +453,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = E3B819DE2638016700DE1890;
 			productRefGroup = E3B819E82638016700DE1890 /* Products */;
@@ -301,9 +471,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3B819FA2638016B00DE1890 /* LaunchScreen.storyboard in Resources */,
+				E3EA286A263A41DD0035169F /* BRPickerView.bundle in Resources */,
+				E3EA282D263940820035169F /* Localizable.strings in Resources */,
 				E3B819F72638016B00DE1890 /* Assets.xcassets in Resources */,
 				E3B81A6C263817E900DE1890 /* PGDatePicker.bundle in Resources */,
 				E3B819F52638016700DE1890 /* Main.storyboard in Resources */,
+				E3EA281F26393D890035169F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,15 +488,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3B81A5A263817E900DE1890 /* PGDatePicker+MinuteAndSecond.m in Sources */,
+				E3EA28122639389B0035169F /* UIColor+Hex.m in Sources */,
+				E3B81A962639042300DE1890 /* BaseVC.m in Sources */,
+				E3EA2868263A41DD0035169F /* NSDate+BRPickerView.m in Sources */,
 				E3B81A5C263817E900DE1890 /* UIColor+PGHex.m in Sources */,
 				E3B81A69263817E900DE1890 /* PGDatePicker+DateHourMinute.m in Sources */,
+				E3B81A8D2638FF3300DE1890 /* OneViewController.m in Sources */,
 				E3B81A5D263817E900DE1890 /* PGPickerColumnCell.m in Sources */,
 				E3B81A6B263817E900DE1890 /* PGDatePicker+DateHour.m in Sources */,
 				E3B81A5E263817E900DE1890 /* PGPickerColumnView.m in Sources */,
 				E3B81A68263817E900DE1890 /* PGDatePicker+MonthDayHourMinuteSecond.m in Sources */,
+				E3B81A912639002D00DE1890 /* TwoViewController.m in Sources */,
 				E3B819F22638016700DE1890 /* ViewController.m in Sources */,
 				E3B81A12263809E200DE1890 /* SexRadioBox.m in Sources */,
+				E3EA286E263A41DD0035169F /* BRAddressModel.m in Sources */,
 				E3B81A67263817E900DE1890 /* PGDatePicker+MonthDayHourMinute.m in Sources */,
+				E3EA2866263A41DD0035169F /* BRStringPickerView.m in Sources */,
 				E3B81A75263817E900DE1890 /* PGDatePicker+DateHourMinuteSecond.m in Sources */,
 				E3B81A6D263817E900DE1890 /* PGDatePicker+TimeAndSecond.m in Sources */,
 				E3B819EC2638016700DE1890 /* AppDelegate.m in Sources */,
@@ -331,11 +511,16 @@
 				E3B81A5F263817E900DE1890 /* PGDatePickerView.m in Sources */,
 				E3B81A71263817E900DE1890 /* PGPickerTableView.m in Sources */,
 				E3B81A6F263817E900DE1890 /* PGDatePicker+DateAndTime.m in Sources */,
+				E3EA2867263A41DD0035169F /* BRDatePickerView+BR.m in Sources */,
 				E3B81A72263817E900DE1890 /* PGDatePicker+MonthDay.m in Sources */,
 				E3B81A66263817E900DE1890 /* NSBundle+PGDatePicker.m in Sources */,
 				E3B81A6A263817E900DE1890 /* NSDate+PGCategory.m in Sources */,
+				E3EA286C263A41DD0035169F /* BRBaseView.m in Sources */,
+				E3B81A7F26381A0700DE1890 /* CodeInputView.m in Sources */,
+				E3EA2869263A41DD0035169F /* BRDatePickerView.m in Sources */,
 				E3B81A61263817E900DE1890 /* PGDatePicker+YearAndMonth.m in Sources */,
 				E3B81A62263817E900DE1890 /* PGDatePicker+YearMonthWeek.m in Sources */,
+				E3EA286F263A41DD0035169F /* BRAddressPickerView.m in Sources */,
 				E3B81A73263817E900DE1890 /* PGDatePickManagerHeaderView.m in Sources */,
 				E3B81A70263817E900DE1890 /* PGDatePicker+Common.m in Sources */,
 				E3B81A5B263817E900DE1890 /* PGDatePicker.m in Sources */,
@@ -346,7 +531,11 @@
 				E3B81A59263817E900DE1890 /* PGDatePicker+Date.m in Sources */,
 				E3B81A74263817E900DE1890 /* PGDatePicker+Year.m in Sources */,
 				E3B81A60263817E900DE1890 /* PGDatePicker+MonthDayHour.m in Sources */,
+				E3B81A882638FDAF00DE1890 /* TableViewController.m in Sources */,
+				E3EA286B263A41DD0035169F /* BRPickerStyle.m in Sources */,
 				E3B819FD2638016B00DE1890 /* main.m in Sources */,
+				E3EA2865263A41DD0035169F /* BRResultModel.m in Sources */,
+				E3EA286D263A41DD0035169F /* NSBundle+BRPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +546,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3B819F42638016700DE1890 /* Base */,
+				E3EA281526393CA20035169F /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -365,8 +555,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3B819F92638016B00DE1890 /* Base */,
+				E3EA281626393CA20035169F /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E3EA282126393D890035169F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3EA282026393D890035169F /* en */,
+				E3EA282326393D8F0035169F /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3EA282F263940820035169F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3EA282E263940820035169F /* en */,
+				E3EA2830263940870035169F /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -376,6 +585,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -435,6 +645,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

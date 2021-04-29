@@ -26,8 +26,8 @@
         [self.layer setBackgroundColor:[UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0].CGColor];
         
         self.titles = @[@"男", @"女"];
-        self.selectedImages = @[@"boy", @"girl"];
-        self.unselectedImages = @[@"boy", @"girl"];
+        self.selectedImages = @[@"radio-boy-selected", @"radio-girl-selected"];
+        self.unselectedImages = @[@"radio-boy-unselected", @"radio-girl-unselected"];
         self.selectedBGColor = [UIColor colorWithRed:0/255.0 green:181/255.0 blue:229/255.0 alpha:1.0];
         self.selectedFontColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0];
         self.unselectedFontColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1.0];
@@ -40,30 +40,32 @@
 }
 
 - (void)setUpUI {
-    for (NSInteger i = 0; i < self.titles.count; i++) {
-        CGFloat btnWidth = self.frame.size.width / 2;
-        CGFloat btnHeight = self.frame.size.height;
-        
-        UITapGestureRecognizer *tapGresture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(btnClick:)];
-        SexRadioBox *btn = [[SexRadioBox alloc] initWithFrame:CGRectMake(i * btnWidth, 0.0, btnWidth, btnHeight) title:self.titles[i] image:self.unselectedImages[i]];
-        btn.tag = i;
-        [btn addGestureRecognizer:tapGresture];
-        [self addSubview:btn];
-        [self.btns addObject:btn];
-        
-        if (i == 0) {
-            btn.curImageName = self.selectedImages[i];
-            btn.curFontColor = self.selectedFontColor;
+    if (self.btns.count == 0) {
+        for (NSInteger i = 0; i < self.titles.count; i++) {
+            CGFloat btnWidth = self.frame.size.width / 2;
+            CGFloat btnHeight = self.frame.size.height;
+            
+            UITapGestureRecognizer *tapGresture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(btnClick:)];
+            SexRadioBox *btn = [[SexRadioBox alloc] initWithFrame:CGRectMake(i * btnWidth, 0.0, btnWidth, btnHeight) title:self.titles[i] image:self.unselectedImages[i]];
+            btn.tag = i;
+            [btn addGestureRecognizer:tapGresture];
+            [self addSubview:btn];
+            [self.btns addObject:btn];
+            
+            if (i == 0) {
+                btn.curImageName = self.selectedImages[i];
+                btn.curFontColor = self.selectedFontColor;
+            }
         }
-    }
-    
-    self.animatView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width / 2, self.frame.size.height)];
-    [self.animatView.layer setCornerRadius:self.frame.size.height / 2];
-    self.animatView.layer.backgroundColor = self.selectedBGColor.CGColor;
-    [self addSubview:self.animatView];
-    
-    for (SexRadioBox *btn in self.btns) {
-        [self bringSubviewToFront:btn];
+        
+        self.animatView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width / 2, self.frame.size.height)];
+        [self.animatView.layer setCornerRadius:self.frame.size.height / 2];
+        self.animatView.layer.backgroundColor = self.selectedBGColor.CGColor;
+        [self addSubview:self.animatView];
+        
+        for (SexRadioBox *btn in self.btns) {
+            [self bringSubviewToFront:btn];
+        }        
     }
 }
 

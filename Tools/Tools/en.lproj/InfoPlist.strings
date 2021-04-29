@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Tools
+
+  Created by wangyan on 2021/4/28.
+  
+*/
+
+//在手机语言是英文时显示的名称
+CFBundleDisplayName = "Tools";
