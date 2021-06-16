@@ -63,6 +63,9 @@
 		E3EA286D263A41DD0035169F /* NSBundle+BRPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA285D263A41DD0035169F /* NSBundle+BRPickerView.m */; };
 		E3EA286E263A41DD0035169F /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA2861263A41DD0035169F /* BRAddressModel.m */; };
 		E3EA286F263A41DD0035169F /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA2864263A41DD0035169F /* BRAddressPickerView.m */; };
+		EEB93D782679D7E100A9E06C /* HMSegementController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB93D722679D7E100A9E06C /* HMSegementController.m */; };
+		EEB93D792679D7E100A9E06C /* HMSegmentedControl+setAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB93D742679D7E100A9E06C /* HMSegmentedControl+setAttribute.m */; };
+		EEB93D7A2679D7E100A9E06C /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB93D762679D7E100A9E06C /* HMSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -180,6 +183,12 @@
 		E3EA2862263A41DD0035169F /* BRAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressPickerView.h; sourceTree = "<group>"; };
 		E3EA2863263A41DD0035169F /* BRAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAddressModel.h; sourceTree = "<group>"; };
 		E3EA2864263A41DD0035169F /* BRAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAddressPickerView.m; sourceTree = "<group>"; };
+		EEB93D722679D7E100A9E06C /* HMSegementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegementController.m; sourceTree = "<group>"; };
+		EEB93D732679D7E100A9E06C /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		EEB93D742679D7E100A9E06C /* HMSegmentedControl+setAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HMSegmentedControl+setAttribute.m"; sourceTree = "<group>"; };
+		EEB93D752679D7E100A9E06C /* HMSegementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegementController.h; sourceTree = "<group>"; };
+		EEB93D762679D7E100A9E06C /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		EEB93D772679D7E100A9E06C /* HMSegmentedControl+setAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HMSegmentedControl+setAttribute.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -407,10 +416,24 @@
 		E3EA2871263A41E00035169F /* PlugIn */ = {
 			isa = PBXGroup;
 			children = (
+				EEB93D712679D7E100A9E06C /* HMSegmentedControl */,
 				E3B81A1D263817E900DE1890 /* PGDatePicker */,
 				E3EA2849263A41DD0035169F /* BRPickerView */,
 			);
 			path = PlugIn;
+			sourceTree = "<group>";
+		};
+		EEB93D712679D7E100A9E06C /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				EEB93D722679D7E100A9E06C /* HMSegementController.m */,
+				EEB93D732679D7E100A9E06C /* HMSegmentedControl.h */,
+				EEB93D742679D7E100A9E06C /* HMSegmentedControl+setAttribute.m */,
+				EEB93D752679D7E100A9E06C /* HMSegementController.h */,
+				EEB93D762679D7E100A9E06C /* HMSegmentedControl.m */,
+				EEB93D772679D7E100A9E06C /* HMSegmentedControl+setAttribute.h */,
+			);
+			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,6 +515,8 @@
 				E3B81A962639042300DE1890 /* BaseVC.m in Sources */,
 				E3EA2868263A41DD0035169F /* NSDate+BRPickerView.m in Sources */,
 				E3B81A5C263817E900DE1890 /* UIColor+PGHex.m in Sources */,
+				EEB93D7A2679D7E100A9E06C /* HMSegmentedControl.m in Sources */,
+				EEB93D792679D7E100A9E06C /* HMSegmentedControl+setAttribute.m in Sources */,
 				E3B81A69263817E900DE1890 /* PGDatePicker+DateHourMinute.m in Sources */,
 				E3B81A8D2638FF3300DE1890 /* OneViewController.m in Sources */,
 				E3B81A5D263817E900DE1890 /* PGPickerColumnCell.m in Sources */,
@@ -527,6 +552,7 @@
 				E3B81A6E263817E900DE1890 /* PGPickerView.m in Sources */,
 				E3B81A64263817E900DE1890 /* PGDatePickManager.m in Sources */,
 				E3B81A63263817E900DE1890 /* PGDatePicker+Time.m in Sources */,
+				EEB93D782679D7E100A9E06C /* HMSegementController.m in Sources */,
 				E3B81A08263801BA00DE1890 /* SexRadioBoxGroup.m in Sources */,
 				E3B81A59263817E900DE1890 /* PGDatePicker+Date.m in Sources */,
 				E3B81A74263817E900DE1890 /* PGDatePicker+Year.m in Sources */,
@@ -703,6 +729,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AX5UYXPK8;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -721,6 +748,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8AX5UYXPK8;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
