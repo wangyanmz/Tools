@@ -253,7 +253,7 @@
             titleLayer.truncationMode = kCATruncationEnd;
             
             NSString *name  =self.font.fontName;
-            if ([name isEqualToString:@".SFUI-Semibold"]) {
+            if ([name isEqualToString:@".SFUI-Semibold"] || [name isEqualToString:@".SFUI-Regular"]) {
                 name = @"TimesNewRomanPSMT";
             }
             CTFontRef fontRef = CTFontCreateWithName((CFStringRef)name, self.font.pointSize, NULL);
@@ -337,7 +337,7 @@
             titleLayer.truncationMode = kCATruncationEnd;
             
             NSString *name =self.font.fontName;
-            if ([name isEqualToString:@".SFUI-Semibold"]) {
+            if ([name isEqualToString:@".SFUI-Semibold"] || [name isEqualToString:@".SFUI-Regular"]) {
                 name = @"TimesNewRomanPSMT";
             }
             CTFontRef fontRef = CTFontCreateWithName((CFStringRef)name, self.font.pointSize, NULL);

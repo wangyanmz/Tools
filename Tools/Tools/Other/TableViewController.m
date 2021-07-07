@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "OneViewController.h"
 #import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
 
 @interface TableViewController ()
 
@@ -24,7 +26,8 @@
     self.data = @[@{@"name" : @"测试", @"class" : @"ViewController"},
                   @{@"name" : @"验证码输入框", @"class" : @"OneViewController"},
                   @{@"name" : @"性别选择器", @"class" : @"TwoViewController"},
-                  @{@"name" : @"时间选择器", @"class" : @"TwoViewController"},];
+                  @{@"name" : @"segmentView", @"class" : @"ThreeViewController"},
+                  @{@"name" : @"滑动", @"class" : @"FourViewController"},];
     
     self.tableView.tableFooterView = [UIView new];
 }

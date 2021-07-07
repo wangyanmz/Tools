@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  Tools
+//
+//  Created by ywang on 2021/7/2.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kWidth          [UIScreen mainScreen].bounds.size.width
+#define kHeight         [UIScreen mainScreen].bounds.size.height
+
+#import <MJExtension/MJExtension.h>
+#import "FontAndColorMacros.h"
+#import "UtilsMacros.h"
+#import "UIColor+Hex.h"
+
+#endif /* PrefixHeader_pch */

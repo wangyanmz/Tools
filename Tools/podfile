@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+target 'Tools' do
+  # 解析框架
+  pod 'MJExtension'
+
+end

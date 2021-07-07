@@ -98,7 +98,7 @@
 }
 
 - (void)_initSegeMentControll {
-    WeakSelf(self)
+    __weak typeof(self) wSelf = self;
     self.segementControl.indexChangeBlock = ^(NSInteger index){
         [wSelf setVCToIndex:index];
         if (wSelf.indexChangeBlock) {
